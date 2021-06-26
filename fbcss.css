@@ -1,0 +1,90 @@
+body{
+    background-color: white;
+}
+
+#layer{
+    position: relative;
+}
+
+#pageInfo{
+    float:left;
+    width: 500px;
+    position: absolute;
+    top: 150px;
+    left:180px;
+}
+
+#pageInfo p{
+    font-size: 30px;
+}
+
+#form{
+    background-color: ghostwhite;
+    position: absolute;
+    top:120px ;
+    right:200px;
+    float: left;
+    width: 400px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px rgb(204, 202, 202);
+    padding: 20px;
+}
+
+#layer::after{
+    content:"";
+    display: table;
+    clear:both;
+} 
+
+input{
+    padding: 20px;
+    width:350px;
+    border: 1px solid rgb(219, 218, 218);
+    border-radius: 10px;
+} 
+ form h2{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(92, 92, 255);
+    font-weight: bolder;
+}
+input[placeholder]
+{
+    font-size: 17px;
+}
+input[type="button"]
+{
+    width: 392px;
+    background-color: rgb(96, 96, 250);
+}
+input[value="Log In"]
+{
+    font-size: 17px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 130px;
+    color:rgb(101, 101, 250)
+
+}
+input:focus{
+    outline: none;
+    border:3px solid rgb(94, 94, 252);
+}
+a:hover{
+    text-decoration: underline;
+}
+#signup{
+    margin-left:103px;
+    padding:10px 20px;
+    background-color: rgb(0, 182, 45);
+    color:white;
+    border:1px solid transparent;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bolder;
+}

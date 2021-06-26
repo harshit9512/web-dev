@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color:cyan;}
+h1 {background-color: skyblue;}
+</style>
+<body>
+<!--This is a comment-->
+	<h1 style="color:blue;">This is a h1 heading</h1>
+	<h3>This is a h3 heading</h3>
+	<hr>
+	<br>
+		<p><q>This is a paragraph</q> it displays everything in a line unless we 
+		use br tags. 
+		<abbr title="D Y Patil College Of Engineering">DYPCOE</abbr> is an Engineering college
+		<p>
+			<pre title="This is pre element">
+My name is Anthony Gonsalwis
+Mai duniya mein akela hoon.
+			</pre>
+			
+			this is BDO element- bi directional override<br>
+			<bdo dir="rtl">This text will appear right to left</bdo>
+		</p>
+</body>
+</head>
+</html>

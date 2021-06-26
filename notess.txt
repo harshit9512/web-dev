@@ -1,0 +1,14 @@
+clearfix
+diff in inline and float
+flex box
+CSS Float-Float Examples-Flexbox to create flexible boxes
+css transform : translate
+image sprites
+
+note:diff in inline, inline-block & block.
+-
+inline: can't use padding or height related css
+block: uses full horizontal length. height related css allowed
+inline-block: doesn't use full horizontal length, can stay alongside other elements in a line.
+height related css are also allowed.
+  

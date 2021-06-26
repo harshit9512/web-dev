@@ -1,0 +1,21 @@
+/*This is a comment*/
+h1 {
+	background-color:skyblue;
+	padding: 10px ;
+	border: 2px solid black;
+	text-align: center;
+}
+form {
+	padding: 10px;
+	text-align:center;
+	border: 1px dotted black;
+	background-color: ghostwhite;
+}
+input[type="text"]
+{
+	color:blue;
+}
+input[type="E-Mail"]
+{
+	color:violet;
+}

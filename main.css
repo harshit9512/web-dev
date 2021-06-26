@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+h1{
+    background-color: rgb(168, 176, 180);
+    border: 10px solid transparent;
+    border-radius: 25px;
+    border-image: url(border.png) 30 round;
+    padding: 25px;
+    text-align: center;
+}
+body{
+    background-color: whitesmoke;
+}
+#game{
+    float: left;
+    width:50%;
+    background-color: teal;
+    border: 10px solid transparent;
+    border-image: url(border.png) 30 stretch;
+    border-radius: 20px;
+    padding: 20px;
+    height: 500px;
+}
+#players{
+    float:left;
+    width:50%;
+    background-color: rgb(142, 141, 221);
+    border: 10px solid transparent;
+    border-image: url(border.png) 30 stretch;
+    border-radius: 20px;
+    padding: 20px;
+    height: 500px;
+}
+
+#layer::after{
+    content:"";
+    display: table;
+    clear:both;
+}
+
+#footer{
+    background-color: rgb(160, 56, 160);
+    text-align: center;
+    padding: 15px;
+    border-radius: 25px;
+    border: 10px solid transparent;
+    border-image: url(border.png) 30 round;
+}
